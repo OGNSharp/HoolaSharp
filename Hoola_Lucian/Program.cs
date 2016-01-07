@@ -57,7 +57,7 @@ namespace HoolaLucian
         static void OnGameLoad(EventArgs args)
         {
             if (Player.ChampionName != "Lucian") return;
-            Game.PrintChat("훌라 루시안 - 개발자 Hoola 한글화 OGN :)");
+            Game.PrintChat("훌라 루시안 - 'SBTW is always Right' :)");
             Q = new Spell(SpellSlot.Q, 675);
             Q1 = new Spell(SpellSlot.Q, 1200);
             W = new Spell(SpellSlot.W, 1200, TargetSelector.DamageType.Magical);
