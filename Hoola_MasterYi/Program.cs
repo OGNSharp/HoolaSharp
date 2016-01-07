@@ -299,7 +299,7 @@ namespace HoolaMasterYi
             var Misc = new Menu("기타", "Misc");
             Misc.AddItem(new MenuItem("AutoQ", "Q로 적팀 추격").SetValue(true));
             Misc.AddItem(new MenuItem("AutoQOnly", "Q사거리 벗어나기전 Q사용").SetValue(new KeyBind('C', KeyBindType.Press)));
-            Misc.AddItem(new MenuItem("AutoY", "궁 쓸때 요유무 사용).SetValue(true));
+            Misc.AddItem(new MenuItem("AutoY", "궁 쓸때 요유무 사용").SetValue(true));
             Menu.AddSubMenu(Misc);
 
             Menu.AddToMainMenu();
